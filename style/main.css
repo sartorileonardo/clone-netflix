@@ -1,0 +1,121 @@
+/*reset css*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+/*elementos base*/
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Arial Black, Arial Bold Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a :hover {
+    color: #fff;
+}
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('https://image.tmdb.org/t/p/original/mxdCIxCA6DydRcRUpEXLwZHDWXZ.jpg');
+    height: 350px;
+    background-size: cover;
+    /*pegar a area de cobertura*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*no meio da tela, verticalmente*/
+    align-items: flex-start;
+    /*começando na esquerda*/
+}
+
+.filme-principal .descricao .descricao-completa{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.descricao{
+    font-style: italic;
+}
+
+.descricao-completa{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    /*suavisa o tempo da troca de cor do botao*/
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+/*tamanho da imagem no carrosel*/
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
