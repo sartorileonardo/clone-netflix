@@ -31,5 +31,5 @@ function mostrarDescricaoCompleta() {
 
 
 function assistirTrailer(){
-    window.open('https://www.netflix.com/br/','_blank');
+    window.open('https://www.youtube.com/watch?v=yKXYXgo7a3I','_blank');
 }
