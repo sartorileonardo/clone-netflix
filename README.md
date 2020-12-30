@@ -10,6 +10,4 @@ Abrir no GithubPages: https://sartorileonardo.github.io/clone-netflix/
 Curso "Recriando a Interface do Netflix", oferecido por: https://digitalinnovation.one/
 
 ## Bonus
-- Carrosel automático de sugestões de séries;
-- Mostrar/Ocultar mais informações no botão da tela inicial;
-- Abrir a página oficial da série no Youtube;
+Como diferencial foi implementado uma série diferente do padrão, carrossel girando opções automaticamente e vida aos botões.
