@@ -31,5 +31,5 @@ function mostrarDescricaoCompleta() {
 
 
 function assistirTrailer(){
-    window.open('https://www.youtube.com/c/NetflixBrasil/search?query=la%20casa%20de%20papel','_blank');
+    window.open('https://www.netflix.com/br/','_blank');
 }
