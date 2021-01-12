@@ -19,14 +19,17 @@ $('.owl-carousel').owlCarousel({
 });
 
 function mostrarDescricaoCompleta() {
-    setTimeout(() => {
-        let conteudoDescricaoCompleta = document.getElementById("descricao-completa").innerHTML;
-        if (conteudoDescricaoCompleta == "") {
-            document.getElementById("descricao-completa").innerHTML = "Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder.";
-        } else {
-            document.getElementById("descricao-completa").innerHTML = "";
-        }
-    }, 200);
+    let conteudoDescricaoCompleta = document.getElementById("descricao-completa").innerHTML;
+    if(conteudoDescricaoCompleta.trim() == ""){
+        document.getElementById("descricao-completa").innerHTML = "Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder.";
+    }else{
+        this.aguardar(200);
+        document.getElementById("descricao-completa").innerHTML = "";
+    }
+}
+
+function aguardar(tempoEmMilisegundos){
+    setTimeout(() => {}, tempoEmMilisegundos);
 }
 
 
