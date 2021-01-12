@@ -34,5 +34,5 @@ function aguardar(tempoEmMilisegundos){
 
 
 function assistirTrailer(){
-    window.open('https://www.youtube.com/watch?v=yKXYXgo7a3I','_blank');
+    window.open('https://www.youtube.com/watch?v=uplP9GLl4k8','_blank');
 }
